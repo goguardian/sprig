@@ -33,8 +33,9 @@ class UserleapFlutterWeb {
   Future<dynamic> handleMethodCall(MethodCall call) async {
     switch (call.method) {
       case Channels.CONFIGURE:
-        configure(call.arguments['env']);
-        return 'UNKNOWN';
+        //Web does not support this
+        //configure(call.arguments['env']);
+        return Channels.CONFIGURE;
       case Channels.DISPLAY_WITH_ID:
         displaySurvey(call.arguments['id']);
         return 'displaying survey';

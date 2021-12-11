@@ -1,5 +1,5 @@
 @JS("Sprig")
-library userleap;
+library sprig;
 
 import 'package:js/js.dart';
 
