@@ -1,6 +1,6 @@
 # Sprig
 
-[![pub package](https://img.shields.io/badge/Pub-0.2.0-green.svg)](https://pub.dartlang.org/packages/sprig)
+[![pub package](https://img.shields.io/badge/Pub-0.3.0-green.svg)](https://pub.dartlang.org/packages/sprig)
 
 ## A fork of UserleapFlutter
 
@@ -97,5 +97,6 @@ checkout the example project for full implementation
 ## Desktop support
 
 The official libraries do not support any desktop platforms.
+The iOS library is not supported on macOS.
 
 

@@ -1,6 +1,5 @@
-# userleap_flutter_web
+# Sprig Web
 
-A new flutter plugin project.
+A sprig implementation for Web
 
-## Development in progress, not ready for use
 

@@ -1,7 +1,8 @@
 name: sprig_platform_interface
 description:  A common platform interface for the sprig plugin. A fork of UserLeap
-version: 0.0.4
-#repository: https://github.com/disparta/sprig_flutter
+version: 0.0.4+1
+repository: https://github.com/disparta/sprig/tree/main/sprig_platform_interface
+homepage: https://github.com/disparta/sprig
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
