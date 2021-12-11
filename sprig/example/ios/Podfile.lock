@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - sprig (0.0.1):
+    - Flutter
+    - UserLeapKit (~> 4.1.0)
+  - UserLeapKit (4.1.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - sprig (from `.symlinks/plugins/sprig/ios`)
+
+SPEC REPOS:
+  trunk:
+    - UserLeapKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  sprig:
+    :path: ".symlinks/plugins/sprig/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  sprig: 81891a91b4384221c70bae7d14fea4888839dd64
+  UserLeapKit: f3ac5e69e3994d00b19dc6bd6fa7377b9c4f567e
+
+PODFILE CHECKSUM: 33f74cf6f4e5775ad35ae5df4008ad34eb3f5e59
+
+COCOAPODS: 1.11.2

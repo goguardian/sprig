@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter_web/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter_web/build" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter_web/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter_platform_interface/build" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter_platform_interface/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter_platform_interface/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter_web/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter_web/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/userleap_flutter_web/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_platform_interface/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_platform_interface/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_platform_interface/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_web/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_web/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_web/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_web/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_web/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_web/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_macos/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_macos/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_macos/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_macos/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_macos/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/sprig_macos/.dart_tool" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
