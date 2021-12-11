@@ -1,3 +1,5 @@
+## 0.0.8+2
+- Update README.md
 ## 0.0.8
 - Finalized web platform interface usage.
 ## 0.0.7
