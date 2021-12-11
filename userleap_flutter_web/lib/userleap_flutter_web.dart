@@ -1,4 +1,5 @@
 import 'dart:async';
+
 // In order to *not* need this ignore, consider extracting the "web" version
 // of your plugin as a separate package, instead of inlining it in the same
 // package as the core of your plugin.
@@ -32,7 +33,7 @@ class UserleapFlutterWeb {
   Future<dynamic> handleMethodCall(MethodCall call) async {
     switch (call.method) {
       case Channels.CONFIGURE:
-        userLeap('configure', call.arguments['env']);
+        configure(call.arguments['env']);
         return 'UNKNOWN';
       case Channels.DISPLAY_WITH_ID:
         displaySurvey(call.arguments['id']);
@@ -41,21 +42,20 @@ class UserleapFlutterWeb {
         logoutUser();
         return 'logged out user succesfully';
       case Channels.PRESENT_DEBUG_SURVEY:
-        userLeap('track', '1');
+        track('1');
         return 'UNKNOWN';
       case Channels.SET_EMAIL_ADDRESS:
-        userLeap('setEmail', call.arguments['email']);
+        setEmail(call.arguments['email']);
         return 'email address set succesfully';
       case Channels.SET_VISITOR_ATTRIBUTE:
-        userLeap(
-            'setAttribute', call.arguments['key'], call.arguments['value']);
+        setAttribute(call.arguments['key'], call.arguments['value']);
         return 'set visitor attribute';
       case Channels.SET_USER_IDENTIFIER:
-        userLeap('setUserId', call.arguments['userId']);
+        setUserId(call.arguments['userId']);
         return 'set user ID';
       case Channels.TRACK:
-        userLeap('track', call.arguments['env']);
-        return 'UNKNOWN';
+        track(call.arguments['env']);
+        return 'track user event: ${call.arguments['env']}';
 
       default:
         throw PlatformException(

@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await UserleapFlutterWeb.platformVersion, '42');
+    expect("await UserleapFlutterWeb.platformVersion", '42');
   });
 }

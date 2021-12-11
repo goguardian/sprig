@@ -1,13 +1,31 @@
-@JS()
+@JS("Sprig")
 library userleap;
 
 import 'package:js/js.dart';
 
-@JS('UserLeap')
-external userLeap(String event, [dynamic? key, dynamic? value]);
+@JS('configure')
+external void configure(String enviromentID);
 
-@JS('UserLeap.logoutUser')
+@JS('track')
+external void track(String event);
+
+@JS('setUserId')
+external void setUserId(String userId);
+
+@JS('setEmail')
+external void setEmail(String userId);
+
+@JS('setAttribute')
+external void setAttribute([dynamic? key, dynamic? value]);
+
+@JS('removeAttributes')
+external void removeAttributes([dynamic? key, dynamic? value]);
+
+@JS('setAttributes')
+external void setAttributes(Object attributes);
+
+@JS('logoutUser')
 external void logoutUser();
 
-@JS('UserLeapdisplaySurvey')
+@JS('displaySurvey')
 external void displaySurvey(String id);
